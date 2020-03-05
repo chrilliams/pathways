@@ -5,5 +5,20 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: `pathways`,
+    description: `Career pathways for DVLA`,
+    author: `@chrilliams`,
+  },
   pathPrefix: "/pathways",
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/markdown-pages`,
+        name: `markdown-pages`,
+      },
+    },
+    `gatsby-transformer-remark`,
+  ]
 }

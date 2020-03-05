@@ -1,0 +1,26 @@
+
+img {
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+}
+
+nav a:hover {
+  background-color: #9bc27c
+}
+nav-link.active{
+  background-color: #9bc27c
+
+}
+.navbar-dark .navbar-nav .nav-link.active {
+  background-color: #9bc27c
+
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255);
+}
