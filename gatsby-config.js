@@ -10,7 +10,6 @@ module.exports = {
     description: `Career pathways for DVLA`,
     author: `@chrilliams`,
   },
-  pathPrefix: "/pathways",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
