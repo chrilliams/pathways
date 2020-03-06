@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{"9D0l":function(e,t,a){"use strict";a.r(t);var r=a("q1tI"),n=a.n(r);t.default=function(){return n.a.createElement(n.a.Fragment,null,n.a.createElement("h1",{className:"text-primary"},"Career Pathways"),"Career frameworks are the critical first piece in creating streamlined, functional career networks that will help the DVLA offer life-changing opportunities.")}}}]);
+//# sourceMappingURL=component---src-pages-pathways-js-57747c76152a9350c42c.js.map
