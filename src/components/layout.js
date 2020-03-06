@@ -11,7 +11,6 @@ import { StaticQuery, graphql } from "gatsby"
 import Container from "react-bootstrap/Container"
 
 import Header from "./header"
-import "./layout.css"
 
 const Layout = ({ children }) => (
   <StaticQuery

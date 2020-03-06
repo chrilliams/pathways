@@ -43,7 +43,7 @@ const Header = ({ siteTitle }) => (
 
           <Nav.Item className="flex-fill">
             <Link
-              to="who"
+              to="/who"
               activeClassName="active"
               className="nav-link text-center"
             >
@@ -52,7 +52,7 @@ const Header = ({ siteTitle }) => (
           </Nav.Item>
           <Nav.Item className="flex-fill">
             <Link
-              to="working"
+              to="/working"
               activeClassName="active"
               className="nav-link text-center"
             >
@@ -61,7 +61,7 @@ const Header = ({ siteTitle }) => (
           </Nav.Item>
           <Nav.Item className="flex-fill">
             <Link
-              to="people"
+              to="/people"
               activeClassName="active"
               className="nav-link text-center"
             >
@@ -70,7 +70,7 @@ const Header = ({ siteTitle }) => (
           </Nav.Item>
           <Nav.Item className="flex-fill">
             <Link
-              to="pathways"
+              to="/pathways"
               activeClassName="active"
               className="nav-link text-center"
             >
@@ -79,7 +79,7 @@ const Header = ({ siteTitle }) => (
           </Nav.Item>
           <Nav.Item className="flex-fill">
             <Link
-              to="faq"
+              to="/faq"
               activeClassName="active"
               className="nav-link text-center"
             >

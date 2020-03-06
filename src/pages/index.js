@@ -1,10 +1,11 @@
 import React from "react"
 import hivePeople from "../../static/images/hive_people.png"
+import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed'
 
 const IndexPage = () => (
   <>
     <img className="align-middle" src={hivePeople} alt="hivePeople" />
-    <h3>49 million reasons to work at the DVLA</h3>
+    <h1 className="text-primary">49 million reasons to work at the DVLA</h1>
     <p>
       At the DVLA we work to deliver award winning services that make a
       difference to the lives of every citizen in the UK.
@@ -33,7 +34,7 @@ const IndexPage = () => (
       holiday entitlement. So if you want to work on exciting services On a
       massive scale Using the latest technology Then we’d like to hear from you
     </p>
-    <h4>Best in class services</h4>
+    <h2 className="text-primary">Best in class services</h2>
     <p>
       As a team we focus on user needs, whether that is a citizen, an
       organisation or an internal user. We are committed to providing the most
@@ -47,7 +48,7 @@ const IndexPage = () => (
       services online with many of them being recognised externally as best in
       class.
     </p>
-    <h4>Our tools and technology</h4>
+    <h2 className="text-primary">Our tools and technology</h2>
     <p>
       Our digital services are built using modern tools and technologies. We use
       public cloud where possible, taking advantage of the cost, availability
@@ -69,6 +70,9 @@ const IndexPage = () => (
       deployed through our continuous integration/continuous deployment (CI/CD)
       pipeline.
     </p>
+    <ResponsiveEmbed aspectRatio="16by9">
+      <embed src="https://www.youtube.com/embed/2iGa453g8AA"/>
+    </ResponsiveEmbed>
   </>
 )
 

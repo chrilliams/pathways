@@ -22,5 +22,11 @@ nav-link.active{
 
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255);
+  color: white;
 }
+// Your variable overrides
+
+$theme-colors: (
+  "primary": #85aea3,
+);
+@import '~bootstrap/scss/bootstrap';

@@ -1,4 +1,4 @@
-import "bootstrap/dist/css/bootstrap.css"
+import "./src/components/layout.scss"
 
 import React from "react"
 import Layout from "./src/components/layout"
