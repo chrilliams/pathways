@@ -1,6 +1,6 @@
 import React from "react"
 import hivePeople from "../../static/images/hive_people.png"
-import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed'
+import ResponsiveEmbed from "react-bootstrap/ResponsiveEmbed"
 
 const IndexPage = () => (
   <>
@@ -71,7 +71,7 @@ const IndexPage = () => (
       pipeline.
     </p>
     <ResponsiveEmbed aspectRatio="16by9">
-      <embed src="https://www.youtube.com/embed/2iGa453g8AA"/>
+      <embed src="https://www.youtube.com/embed/2iGa453g8AA" />
     </ResponsiveEmbed>
   </>
 )

@@ -28,7 +28,7 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
         <Container>
           <main>{children}</main>
-          <footer>© {new Date().getFullYear()}, DVLA</footer>
+          <footer className="mt-5">© {new Date().getFullYear()}, DVLA</footer>
         </Container>
       </>
     )}
