@@ -98,11 +98,11 @@ topics:
       - level: 4
         grade: 'HEO'
         criteria:
-          - "Contributes to maintaining the Monzo culture in their team, helping new joiners"
+          - "Contributes to maintaining the DVLA culture in their team, helping new joiners"
           - "Gets buy-in on technical decision-making and proposed designs"
           - "Proactively involves other relevant engineers"
           - "Sought out for code reviews"
-          - "Instills Monzo engineering principles in other engineers"
+          - "Instills DVLA engineering principles in other engineers"
           - "Helps the growth of engineers around them through coaching and mentoring"
           - "Helps their squad work together more effectively"
           - "Helps facilitate team/squad rituals"
@@ -113,12 +113,12 @@ topics:
       - level: 5
         grade: 'SEO'
         criteria:
-          - "Instills Monzo engineering principles across a whole squad of engineers"
+          - "Instills DVLA engineering principles across a whole squad of engineers"
           - "Works with relevant Engineering Managers to help other engineers perform and grow"
           - "Fosters effective collaboration in multi-disciplinary squads (backend, mobile, data, design, web)"
           - "Delegates technical decisions with low risk and high reversibility"
           - "Owns technical decisions with high risk and low reversibility"
-          - "Contributes to maintaining the Monzo culture in the wider company"
+          - "Contributes to maintaining the DVLA culture in the wider company"
           - "Bootstraps new teams"
       - level: 6
         grade: '7'
@@ -154,8 +154,8 @@ topics:
           - "Drives changes to engineering practices with well-reasoned arguments and a 'strong opinion, weakly held' mentality"
           - "Shapes the direction of systems designs with less experienced engineers"
           - "Breaks down delivery and knowledge silos in their squad"
-          - "Represents Monzo at conferences/events"
-          - "Given as reason for other engineers to join Monzo"
+          - "Represents DVLA at conferences/events"
+          - "Given as reason for other engineers to join DVLA"
           - "Proactively shares knowledge internally"
           - "Acts as the 'sole proprietor', in the CEO mindset, their ego/agenda is not a factor in their thinking or decision making"
           - "Attracts other very senior hires"
