@@ -71,6 +71,7 @@ const Header = ({ siteTitle }) => (
           <Nav.Item className="flex-fill">
             <Link
               to="/pathways"
+              partiallyActive={true}
               activeClassName="active"
               className="nav-link text-center"
             >

@@ -3,14 +3,11 @@ const path = require(`path`)
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
-  const blogPostTemplate = path.resolve(`src/templates/blogTemplate.js`)
+  const overviewTemplate = path.resolve(`src/templates/overviewTemplate.js`)
 
   return graphql(`
     {
-      allMarkdownRemark(
-        sort: { order: DESC, fields: [frontmatter___date] }
-        limit: 1000
-      ) {
+      allMarkdownRemark(limit: 1000) {
         edges {
           node {
             frontmatter {
@@ -28,7 +25,7 @@ exports.createPages = ({ actions, graphql }) => {
     return result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
         path: node.frontmatter.path,
-        component: blogPostTemplate,
+        component: overviewTemplate,
         context: {}, // additional data can be passed via context
       })
     })

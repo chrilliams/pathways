@@ -1,4 +1,9 @@
 import React from "react"
+import { Link } from "gatsby"
+
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
+import Card from "react-bootstrap/Card"
 
 const PathwaysPage = () => (
   <>
@@ -48,13 +53,49 @@ const PathwaysPage = () => (
     people's performance against a common set of criteria.
     <h3 className="text-primary pt-3">Things to remember</h3>
     <ul>
-      <li>There are many different ways to progress and be valuable to DVLA as you grow, including deep technical knowledge and ability, technical leadership and people management. All are equally valuable paths in DVLA's engineering community.</li>
-      <li>The framework represents a career’s worth of progression, people shouldn’t expect to fly up it in 18 months!</li>
-      <li>Engineering progression isn’t an exact science and there will always be some ambiguity.</li>
-      <li>This isn’t a checklist – it’s possible to progress up a level without showing all the behaviours in that level.</li>
+      <li>
+        There are many different ways to progress and be valuable to DVLA as you
+        grow, including deep technical knowledge and ability, technical
+        leadership and people management. All are equally valuable paths in
+        DVLA's engineering community.
+      </li>
+      <li>
+        The framework represents a career’s worth of progression, people
+        shouldn’t expect to fly up it in 18 months!
+      </li>
+      <li>
+        Engineering progression isn’t an exact science and there will always be
+        some ambiguity.
+      </li>
+      <li>
+        This isn’t a checklist – it’s possible to progress up a level without
+        showing all the behaviours in that level.
+      </li>
     </ul>
-
-    </>
+    <Row>
+      <Col md={6}>
+        <Card>
+          <Card.Body>
+            <Card.Title>Cloud Engineering</Card.Title>
+            <Card.Text>
+              <p>
+                A Cloud Engineer designs, builds, manages and supports the
+                infrastructure services that underpin all internal user services
+                and services to the public.
+              </p>
+              <Link
+                to="/pathways/cloudengineer"
+                activeClassName="active"
+                className="btn btn-primary"
+              >
+                Cloud Pathways
+              </Link>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+    </Row>
+  </>
 )
 
 export default PathwaysPage
