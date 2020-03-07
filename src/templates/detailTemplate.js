@@ -1,23 +1,47 @@
-import React, { useState } from "react"
-import { graphql } from "gatsby"
-import ListGroup from "react-bootstrap/ListGroup"
-import Col from "react-bootstrap/Col"
-import Row from "react-bootstrap/Row"
+import React from "react"
+import CardColumns from "react-bootstrap/CardColumns"
+import Card from "react-bootstrap/Card"
 
 export default function Template({ topic, grade }) {
-  const frameworkCriteria = topic[0].content
-    .filter(objContent => objContent.grade === grade)
-    .map(objContent =>
-      objContent.criteria != null
-        ? objContent.criteria.map((val, i) => (
-            <li key={i + "-" + Math.random()}>{val}</li>
-          ))
-        : null
-    )
+  const FrameworkCriteria = ({ value }) => {
+    console.log(value)
+    const toRender = []
+
+    value
+      .filter(objContent => objContent.grade === grade)
+      .map(objContent =>
+        objContent.criteria != null
+          ? objContent.criteria.map((val, i) =>
+              toRender.push(<li key={i + "-" + Math.random()}>{val}</li>)
+            )
+          : null
+      )
+    return toRender
+
+    //return <li>{JSON.stringify(value.filter(objContent => objContent.grade === grade))}</li>
+  }
 
   return (
     <>
-      {frameworkCriteria}
+      {/* {frameworkCriteria}
+      {JSON.stringify(topic)} */}
+      <CardColumns className="pt-3">
+        {topic.map(({ name, content }) => (
+          <>
+            <Card key={name} className="border-primary ">
+              <Card.Header className="bg-primary text-white">
+                {name}
+              </Card.Header>
+
+              <Card.Body>
+                <Card.Text>
+                  <FrameworkCriteria value={content} />
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </>
+        ))}
+      </CardColumns>
       {/* <ul>
         {Object.keys(topic).map(key => (
           <div key={key} details={topic[key]}>

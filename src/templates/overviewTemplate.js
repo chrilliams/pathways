@@ -24,6 +24,7 @@ export default function Template({
           <ListGroup className="text-primary pt-3" horizontal>
             <ListGroup.Item
               onClick={() => setGrade("EO")}
+              key="EO"
               className="m-1 text-center"
               action
               variant="success"
@@ -32,6 +33,7 @@ export default function Template({
             </ListGroup.Item>
             <ListGroup.Item
               onClick={() => setGrade("HEO")}
+              key="HEO"
               className="m-1 text-center"
               action
               variant="success"
@@ -40,6 +42,7 @@ export default function Template({
             </ListGroup.Item>
             <ListGroup.Item
               onClick={() => setGrade("SEO")}
+              key="SEO"
               className="m-1 text-center"
               action
               variant="success"
@@ -48,6 +51,7 @@ export default function Template({
             </ListGroup.Item>
             <ListGroup.Item
               onClick={() => setGrade("7")}
+              key="7"
               className="m-1 text-center"
               action
               variant="success"
@@ -82,15 +86,9 @@ export const pageQuery = graphql`
           content {
             criteria
             grade
-            exampleCriteria {
-              criteria
-              examples
-            }
           }
         }
       }
     }
   }
 `
-
-

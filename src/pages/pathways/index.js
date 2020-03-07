@@ -26,7 +26,6 @@ const PathwaysPage = () => (
     <b>Career Pathways have three purposes:</b>
     <p className="text-primary mb-0 mt-2">
       <strong>
-        {" "}
         They help everyone that works at DVLA understand where they are at the
         moment, and take ownership of their progression.
       </strong>
@@ -73,26 +72,38 @@ const PathwaysPage = () => (
       </li>
     </ul>
     <Row>
-      <Col md={6}>
-        <Card>
-          <Card.Body>
-            <Card.Title>Cloud Engineering</Card.Title>
-            <Card.Text>
-              <p>
+      <Col md={12}>
+        <Link to="/pathways/cloudengineer" activeClassName="active">
+          <Card>
+            <Card.Body className="bg-secondary text-white">
+              <Card.Title>Cloud Engineering</Card.Title>
+              <Card.Text>
                 A Cloud Engineer designs, builds, manages and supports the
                 infrastructure services that underpin all internal user services
                 and services to the public.
-              </p>
-              <Link
-                to="/pathways/cloudengineer"
-                activeClassName="active"
-                className="btn btn-primary"
-              >
-                Cloud Pathways
-              </Link>
-            </Card.Text>
-          </Card.Body>
-        </Card>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Link>
+      </Col>
+    </Row>
+    <Row>
+      <Col md={12}>
+        <Link to="/pathways/devopsengineer" activeClassName="active">
+          <Card>
+            <Card.Body className="bg-secondary text-white">
+              <Card.Title>DevOps Engineer</Card.Title>
+              <Card.Text>
+                Commonly referred to as ‘DevOp engineers’, development
+                operations engineers support the development and operation of
+                software through tools, environments and practices. Underpins
+                good development processes including managing tools and testing
+                environments, central code control, maintaining development
+                standards and writing software that automates systems.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Link>
       </Col>
     </Row>
   </>

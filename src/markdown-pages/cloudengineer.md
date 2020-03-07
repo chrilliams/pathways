@@ -2,38 +2,34 @@
 path: "/pathways/cloudengineer"
 title: "Cloud Engineer Pathway"
 topics:
-  - name: "communication"
+  - name: "IT infrastructure"
     title:
     content:
-      - 
-        grade: 'EO'
+      - level: 1
+        grade: "EO"
         criteria:
           - "Provides regular status updates to their mentor/buddy"
           - "Points out syntactical improvements in code reviews"
           - "Writes PR descriptions that provide basic context for the change"
           - "Seeks guidance from other engineers, rather than answers"
-      - 
-        grade: 'HEO'
+      - level: 2
+        grade: "HEO"
         criteria:
           - "Proactively communicates to their team what they are working on, why, how it's going and what help they need"
           - "Accepts feedback graciously"
           - "Gives feedback to peers when asked"
-        exampleCriteria:
-          - criteria: "Provides helpful and actionable feedback in code reviews in an empathetic manner"
-            examples:
-              - "Take a look at the levelling up your code reviews talk for some ideas"
-          - criteria: "Writes PR descriptions that provide context and provide rationale for significant decisions"
-            examples:
-              - "I decided to X instead of Y here, I also considered Z but for these reasons I went with X"
-      - 
-        grade: 'SEO'
+          - "Provides helpful and actionable feedback in code reviews in an empathetic manner"
+          - "Take a look at the levelling up your code reviews talk for some ideas"
+          - "Writes PR descriptions that provide context and provide rationale for significant decisions"
+      - level: 3
+        grade: "SEO"
         criteria:
           - "Transparent about mistakes they've made, early"
           - "Proactively gives timely actionable feedback to peers"
           - "Proactively seeks feedback from the people around them"
           - "Considers the opinions of others before defending their own"
-      - 
-        grade: '7'
+      - level: 4
+        grade: "7"
         criteria:
           - "Proactively gives feedback 'upwards' and to people they interact with who are not in their team"
           - "Transparent in making design and technical decisions"
@@ -43,15 +39,15 @@ topics:
           - "Helps other people develop themselves and regularly gives insightful, useful feedback to those around them"
           - "Talks to non-technical stakeholders on appropriate level of abstraction"
           - "Transparent about feedback they have received and what they are going to do differently"
-  - name: "impact"
+  - name: "Modern standards approach"
     title:
     content:
       - level: 1
-        grade: 'EO'
+        grade: "EO"
         criteria:
           - "Delivers assigned tasks, working with a more senior team member, and able to take PR feedback to improve their work"
       - level: 2
-        grade: 'HEO'
+        grade: "HEO"
         criteria:
           - "Delivers assigned tasks that meet expected criteria"
           - "Works for the team, focuses on tasks that contribute to team goals"
@@ -60,13 +56,13 @@ topics:
           - "Helps the team, does what needs doing"
           - "Breaks down small/medium problems into iterative steps"
       - level: 3
-        grade: 'SEO'
+        grade: "SEO"
         criteria:
           - "Delivers large well-defined tasks and solves small scope not-well-defined problems"
           - "Contributes to writing proposals (Co-authors with more experienced Engineer)"
           - "Breaks down large problems into smaller iterative steps across multiple PRs"
       - level: 4
-        grade: '7'
+        grade: "7"
         criteria:
           - "Solves ambiguous problems"
           - "Leads writing small/medium scope proposals"
@@ -84,19 +80,17 @@ topics:
           - "Helps prioritise and balance short-term and long-term investments, focusing on high impact, high value work"
           - "Accountable for delivery of large, mission critical engineering projects"
           - "Originates or finishes large, horizontal engineering efforts"
-  - name: "leadership"
+  - name: "Systems design"
     title: "👩‍💼 Leadership"
     content:
       - level: 3
-        grade: 'EO'
+        grade: "EO"
         criteria:
           - "Onboards / mentors new engineers"
-        exampleCriteria:
-          - criteria: "Finds learning opportunities for others when reviewing their code and follows it up"
-            examples:
-              - "I think this code could be improved by doing X, let's pair on it and I'll talk through why X is good for this"
+          - "Finds learning opportunities for others when reviewing their code and follows it up"
+          - "I think this code could be improved by doing X, let's pair on it and I'll talk through why X is good for this"
       - level: 4
-        grade: 'HEO'
+        grade: "HEO"
         criteria:
           - "Contributes to maintaining the DVLA culture in their team, helping new joiners"
           - "Gets buy-in on technical decision-making and proposed designs"
@@ -106,12 +100,10 @@ topics:
           - "Helps the growth of engineers around them through coaching and mentoring"
           - "Helps their squad work together more effectively"
           - "Helps facilitate team/squad rituals"
-        exampleCriteria:
-          - criteria: "Makes improvements to modules/libraries/services and goes out of their way to help others learn from it"
-            examples:
-              - "I've used RxJava for the first time here, I'm going to do a talk about why I've done this, here's some great blog posts on it"
+          - "Makes improvements to modules/libraries/services and goes out of their way to help others learn from it"
+          - "I've used RxJava for the first time here, I'm going to do a talk about why I've done this, here's some great blog posts on it"
       - level: 5
-        grade: 'SEO'
+        grade: "SEO"
         criteria:
           - "Instills DVLA engineering principles across a whole squad of engineers"
           - "Works with relevant Engineering Managers to help other engineers perform and grow"
@@ -121,31 +113,31 @@ topics:
           - "Contributes to maintaining the DVLA culture in the wider company"
           - "Bootstraps new teams"
       - level: 6
-        grade: '7'
+        grade: "7"
         criteria:
           - "Helps groups of squads work together more effectively"
           - "Starts things that they cannot finish by themselves"
           - "Delegates to make better use of their time"
-  - name: "influence"
+  - name: "Systems integration"
     title: "✨ Influence"
     content:
       - level: 1
-        grade: 'EO'
+        grade: "EO"
         criteria:
           - "Improves documentation that is incorrect"
       - level: 2
-        grade: 'HEO'
+        grade: "HEO"
         criteria:
           - "Proactively raises issues they spot in retrospectives"
       - level: 3
-        grade: 'SEO'
+        grade: "SEO"
         criteria:
           - "Provides valuable input to proposals from their team"
           - "Proactively improves modules, services, systems and codebases they encounter, 'this doesn't make sense, I'm going to do something about it'"
           - "Contributes to scaling engineering hiring (e.g. leads calls, does onsite interviews)"
           - "Builds simple tools or iterates existing tools for the benefit of all engineers"
       - level: 4
-        grade: '7'
+        grade: "7"
         criteria:
           - "Positively influences engineers in the wider org"
           - "Maintains documentation on things they know the most, makes it easy for future engineers to interact with systems/code"
@@ -160,16 +152,16 @@ topics:
           - "Acts as the 'sole proprietor', in the CEO mindset, their ego/agenda is not a factor in their thinking or decision making"
           - "Attracts other very senior hires"
           - "Engineers around them get better and have a bigger impact, faster"
-  - name: "mastery"
+  - name: "Technical understanding"
     title: "🛠️ Mastery"
     content:
       - level: 1
-        grade: 'EO'
+        grade: "EO"
         criteria:
-          - "Learns to write correct Go code, following guidance and training materials"
+          - "Learns to write correct code, following guidance and training materials"
           - "Fixes simple bugs"
       - level: 2
-        grade: 'HEO'
+        grade: "HEO"
         criteria:
           - "Designs simple database tables"
           - "Implements asynchronous messaging between services"
@@ -178,16 +170,11 @@ topics:
           - "Fixes bugs involving a number of services and can investigate production issues"
           - "Uses appropriate algorithms and data structures to solve problems"
           - "Writes automated unit and acceptance tests"
-        exampleCriteria:
-          - criteria: "Implements simple RPC handlers"
-            examples:
-              - "Basic CRUD handlers"
-              - "Internal/external API proxies"
-          - criteria: "Writes correct Go code following accepted best practices"
-            examples:
-              - "Follows our Coding Conventions & Best Practices, uses language-level primitives correctly"
+          - "Implements simple RPC handlers"
+          - "Writes correct code following accepted best practices"
+          - "Follows our Coding Conventions & Best Practices, uses language-level primitives correctly"
       - level: 3
-        grade: 'SEO'
+        grade: "SEO"
         criteria:
           - "Uses appropriate design patterns"
           - "Designs new schemas comprising multiple tables"
@@ -198,25 +185,17 @@ topics:
           - "Handles complex error cases in RPC handlers and message consumers"
           - "Debugs production issues"
           - "Considers metrics when building a new system"
-        exampleCriteria:
-          - criteria: "Writes idiomatic Go code"
-            examples:
-              - "Follows the guidelines in Effective Go (https://golang.org/doc/effective_go.html), avoids using patterns that are idiomatic in other languages"
-          - criteria: "Mitigates race conditions and partial failure states in distributed systems"
-            examples:
-              - "Uses locking where appropriate, writes code that is “self-healing” when dealing with distributed failure (e.g. data needs to be written in two or more services)"
-          - criteria: "Implements complex RPC handlers"
-            examples:
-              - "Implements complex business logic, orchestrates multi-stage processes, deals with idempotency or distributed data sources"
-          - criteria: "Proactively considers security implications of their work"    
-            examples:
-              - "Appropriately ties down internal access to resources they're working with (e.g. RPC blacklisting, BigQuery permissions)"
-              - "Evaluates security risks when contributing to proposals"
-              - "Highlights potential security issues when raising and reviewing pull requests - e.g. adding rate limiting in an API, or leaving a code comment to explain why we choose not to"
-              - "\"There's a risk here of X, Y but given Z, I think this is OK\""
-              - "Loops in Security when their squad is unsure about something by posting in #security-requests"
-      - 
-        grade: '7'
+          - "Writes idiomatic code"
+          - "Mitigates race conditions and partial failure states in distributed systems"
+          - "Uses locking where appropriate, writes code that is “self-healing” when dealing with distributed failure (e.g. data needs to be written in two or more services)"
+          - "Implements complex business logic, orchestrates multi-stage processes, deals with idempotency or distributed data sources"
+          - "Proactively considers security implications of their work"
+          - "Appropriately ties down internal access to resources they're working with (e.g. RPC blacklisting, BigQuery permissions)"
+          - "Evaluates security risks when contributing to proposals"
+          - "Highlights potential security issues when raising and reviewing pull requests - e.g. adding rate limiting in an API, or leaving a code comment to explain why we choose not to"
+          - '"There''s a risk here of X, Y but given Z, I think this is OK"'
+          - "Loops in Security when their squad is unsure about something by posting in #security-requests"
+      - grade: "7"
         criteria:
           - "Writes code that serves as a definitive example for new engineers"
           - "Leads the refactoring (de-cruftification) of complex systems"
@@ -238,32 +217,85 @@ topics:
           - "Makes major contributions to technologies and libraries that we depend on"
           - "Makes improvements to the stability, performance or security of the entire platform"
           - "Serves as a technical authority in the wider engineering community"
-        exampleCriteria:
-          - criteria: "Implements services or libraries that require a deep level of domain knowledge"
-            examples:
-              - "Mastercard message parsing"
-              - "Credit decisioning"
-              - "CASS scheduling"
-              - "Google Pay"
-          - criteria: "Makes contributions to library code or core services"
-            examples:
-              - "Bug fixes, small improvements; things that don’t result in a major change in the public API"
-          - criteria: "Builds systems that scale reliably without intervention"
-            examples:
-              - "Services can withstand a year’s worth of growth in load/user base without needing first aid"
-          - criteria: "Produces clear technical designs for large complex projects"
-            examples:
-              - "Outbound and Inbound MasterCard clearing proposals"
+          - "Implements services or libraries that require a deep level of domain knowledge"
+          - "Makes contributions to library code or core services"
+          - "Bug fixes, small improvements; things that don’t result in a major change in the public API"
+          - "Builds systems that scale reliably without intervention"
+          - "Services can withstand a year’s worth of growth in load/user base without needing first aid"
+          - "Produces clear technical designs for large complex projects"
+          - "Outbound and Inbound MasterCard clearing proposals"
+  - name: "Troubleshooting and problem resolution"
+    title:
+    content:
+      - level: 1
+        grade: "EO"
+        criteria:
+          - "Learns to write correct code, following guidance and training materials"
+          - "Fixes simple bugs"
+      - level: 2
+        grade: "HEO"
+        criteria:
+          - "Designs simple database tables"
+          - "Implements asynchronous messaging between services"
+          - "Deploys services to staging and production"
+          - "Handles simple error cases in RPC handlers and message consumers"
+          - "Fixes bugs involving a number of services and can investigate production issues"
+          - "Uses appropriate algorithms and data structures to solve problems"
+          - "Writes automated unit and acceptance tests"
+      - level: 3
+        grade: "SEO"
+        criteria:
+          - "Uses appropriate design patterns"
+          - "Designs new schemas comprising multiple tables"
+          - "Implements complex asynchronous messaging flows"
+          - "Co-ordinates complex deployments and database migrations"
+          - "Implements distributed systems consisting of multiple interacting services"
+          - "Produces technical designs that include a consideration of scalability"
+          - "Handles complex error cases in RPC handlers and message consumers"
+          - "Debugs production issues"
+          - "Considers metrics when building a new system"
+          - "Proactively considers security implications of their work"
+          - "Appropriately ties down internal access to resources they're working with (e.g. RPC blacklisting, BigQuery permissions)"
+          - "Evaluates security risks when contributing to proposals"
+          - "Highlights potential security issues when raising and reviewing pull requests - e.g. adding rate limiting in an API, or leaving a code comment to explain why we choose not to"
+          - '"There''s a risk here of X, Y but given Z, I think this is OK"'
+          - "Loops in Security when their squad is unsure about something by posting in #security-requests"
+      - grade: "7"
+        criteria:
+          - "Writes code that serves as a definitive example for new engineers"
+          - "Leads the refactoring (de-cruftification) of complex systems"
+          - "Debugs complex production issues at speed"
+          - "Identifies and fixes security vulnerabilities"
+          - "Identifies and fixes performance bottlenecks in individual services"
+          - "Explains all aspects of the platform to new engineers"
+          - "Includes actionable dashboarding as part of a new system"
+          - "Builds systems that serve as definitive examples for new engineers"
+          - "Makes major contributions to library code or core services"
+          - "Contributes to external technologies or libraries that we depend on"
+          - "Develops clear technical solutions from ambiguous requirements"
+          - "Uncovers and fixes tricky bugs that have previously evaded detection"
+          - "Implements security improvements that impact multiple services"
+          - "Implements performance improvements that impact multiple services"
+          - "Demonstrates a deep level of knowledge in a specific area"
+          - "Serves as a technical authority on a technology or an area of the codebase"
+          - "Creates dashboards that broadly impact all engineers"
+          - "Makes major contributions to technologies and libraries that we depend on"
+          - "Makes improvements to the stability, performance or security of the entire platform"
+          - "Serves as a technical authority in the wider engineering community"
+          - "Implements services or libraries that require a deep level of domain knowledge"
+          - "Makes contributions to library code or core services"
+          - "Builds systems that scale reliably without intervention"
+          - "Produces clear technical designs for large complex projects"
 ---
 
 **For each job role level in the Digital, Data and Technology Profession Capability Framework, you will find a list of skills, each of which has a skill level assigned to it.**
 
 These 4 skill levels tell you about the level of expertise required for the job role at that level:
-* **Awareness.** You know about the skill and have an appreciation of how it is applied in the environment.
-* **Working.** You can apply your knowledge and experience of the skill, including tools and techniques. You can adopt those most appropriate for the environment.
-* **Practitioner.** You know how to share your knowledge and experience of this skill with others, including tools and techniques. You can define those most appropriate for the environment.
-* **Expert.** You have both knowledge and experience in the application of this skill. You are a recognised specialist and adviser in this skill including user needs, generation of ideas, methods and tools. You can lead or guide others in best-practice use.
 
+- **Awareness.** You know about the skill and have an appreciation of how it is applied in the environment.
+- **Working.** You can apply your knowledge and experience of the skill, including tools and techniques. You can adopt those most appropriate for the environment.
+- **Practitioner.** You know how to share your knowledge and experience of this skill with others, including tools and techniques. You can define those most appropriate for the environment.
+- **Expert.** You have both knowledge and experience in the application of this skill. You are a recognised specialist and adviser in this skill including user needs, generation of ideas, methods and tools. You can lead or guide others in best-practice use.
 
 You will need the following skills for this role, although the level of expertise for each will vary, depending on the role level.
 
