@@ -37,9 +37,47 @@ topics:
           - consistently attends security meetings and groups
           - consistently shares security related information and best practice with their team
           - Gained Cloud Specialty Security Certification
----
 
-**For each job role level in the Digital, Data and Technology Profession Capability Framework, you will find a list of skills, each of which has a skill level assigned to it.**
+  - name: "Coding"
+    levels:
+      EO: Awareness
+      HEO: Working
+      SEO: Practitioner
+      G7: Expert
+    description: ""
+    pathway:
+      awareness:
+        description: Aware of the benefits of coding within Infrastucture engineering and the tools that are.
+        indicators:
+          - Learns to write semantic HTML and CSS following guidance and training materials
+          - Learns to write correct JavaScript (Nodejs) following guidance and training materials
+      working:
+        description: Actively involved in developing tooling (selfservice) to support Squads and increase automation
+        indicators:
+          - Delivers assigned tasks that meet expected criteria
+          - Works for the team, focuses on tasks that contribute to team goals
+          - Tries to unblock themselves first before seeking help
+          - Manages their own time effectively, prioritises their workload well, on time for meetings, aware when blocking others and unblocks
+          - Helps the team, does what needs doing
+          - Breaks down small/medium problems into iterative steps
+          - Delivers small, well-defined tasks/projects
+          - Delegated low-impact problems to solve
+      practitioner:
+        description: Onboards / mentors new engineers and finds learning opportunities for others when reviewing their code and follows it up.
+        indicators:
+          - Proactively improves modules, services, systems and codebases they encounter, 'this doesn't make sense, I'm going to do something about it'
+          - Contributes to scaling engineering hiring (e.g. leads calls, does onsite interviews)
+          - Builds simple tools or iterates existing tools for the benefit of all engineers
+          - Helps Product Owners and Designers to understand and consider non-functional requirements in the product development process
+          - Promotes security good practice and helps other engineers to deepen their security knowledge
+          - Promotes performance good practice and helps other engineers to deepen their performance knowledge
+      expert:
+        description: Has a depth of knowledge in OSL coding that can be transferred to Software Engineering.  Super Engineer that other engineers ask for direct feedback
+        indicators:
+          - Breaks down large long-lasting projects into sensible discrete chunks that compound to achieve a large goal
+          - Helps prioritise and balance short-term and long-term investments, focusing on high impact, high value work
+          - Understands the big picture and integrates DVLA goals into their area
+---**For each job role level in the Digital, Data and Technology Profession Capability Framework, you will find a list of skills, each of which has a skill level assigned to it.**
 
 These 4 skill levels tell you about the level of expertise required for the job role at that level:
 

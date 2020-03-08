@@ -88,7 +88,7 @@ export const pageQuery = graphql`
             EO
             HEO
             SEO
-            G7            
+            G7
           }
           pathway {
             awareness {
@@ -111,7 +111,6 @@ export const pageQuery = graphql`
           name
           description
         }
-        
       }
     }
   }

@@ -4,13 +4,11 @@ import Row from "react-bootstrap/Row"
 import Container from "react-bootstrap/Container"
 
 export default function Template({ topic, selectedGrade }) {
-
-
   const FrameworkLevel = ({ value, level, levels }) => {
-    console.log(selectedGrade);
-    console.log(levels);
+    console.log(selectedGrade)
+    console.log(levels)
 
-    console.log(levels[selectedGrade] + "  " + level);
+    console.log(levels[selectedGrade] + "  " + level)
     const fadeout = levels[selectedGrade] !== level
 
     return (
@@ -57,10 +55,26 @@ export default function Template({ topic, selectedGrade }) {
           <h3 className="primary">{name}</h3>
 
           <Container className="border-top border-1 border-dark">
-            <FrameworkLevel value={pathway.awareness} level="Awareness" levels={levels}/>
-            <FrameworkLevel value={pathway.working} level="Working" levels={levels}/>
-            <FrameworkLevel value={pathway.practitioner} level="Practitioner" levels={levels}/>
-            <FrameworkLevel value={pathway.expert} level="Expert" levels={levels}/>
+            <FrameworkLevel
+              value={pathway.awareness}
+              level="Awareness"
+              levels={levels}
+            />
+            <FrameworkLevel
+              value={pathway.working}
+              level="Working"
+              levels={levels}
+            />
+            <FrameworkLevel
+              value={pathway.practitioner}
+              level="Practitioner"
+              levels={levels}
+            />
+            <FrameworkLevel
+              value={pathway.expert}
+              level="Expert"
+              levels={levels}
+            />
           </Container>
         </div>
       ))}
