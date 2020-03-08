@@ -1,13 +1,13 @@
 ---
 path: "/pathways/cloudengineer"
 title: "Cloud Engineer Pathway"
-levels:
-  EO: awareness
-  HEO: awareness
-  SEO: working
-  '7': practitioner
 topics:
   - name: "Information security"
+    levels:
+      EO: Awareness
+      HEO: Awareness
+      SEO: Working
+      G7: Practitioner
     description: "You can maintain the security, confidentiality and integrity of information systems through compliance with relevant legislation and regulations. You can design, implement and operate controls and management strategies to allow this."
     pathway:
       awareness:
@@ -27,7 +27,7 @@ topics:
           - Utilises this knowledge to maintain the security, confidentiality and integrity of systems and data
           - Gained generic Certified Cloud Security Professional
       expert:
-        description:  Has a depth of knowledge in information security, able to design, quality review and quality assure solutions and services with security controls embedded, specifically engineered as mitigation against security threats as core part of the solutions and services.
+        description: Has a depth of knowledge in information security, able to design, quality review and quality assure solutions and services with security controls embedded, specifically engineered as mitigation against security threats as core part of the solutions and services.
         indicators:
           - consistently considers security throughout all of their engineering activity
           - Utilises this knowledge to maintain the security, confidentiality and integrity of systems and data
@@ -37,7 +37,6 @@ topics:
           - consistently attends security meetings and groups
           - consistently shares security related information and best practice with their team
           - Gained Cloud Specialty Security Certification
-   
 ---
 
 **For each job role level in the Digital, Data and Technology Profession Capability Framework, you will find a list of skills, each of which has a skill level assigned to it.**

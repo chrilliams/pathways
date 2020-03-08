@@ -24,7 +24,7 @@ export default function Template({
           <ListGroup className="text-primary pt-3" horizontal>
             <ListGroup.Item
               onClick={() => setGrade("EO")}
-              key="EO"
+              eventKey="EO"
               className="m-1 text-center"
               action
               variant="success"
@@ -33,7 +33,7 @@ export default function Template({
             </ListGroup.Item>
             <ListGroup.Item
               onClick={() => setGrade("HEO")}
-              key="HEO"
+              eventKey="HEO"
               className="m-1 text-center"
               action
               variant="success"
@@ -42,7 +42,7 @@ export default function Template({
             </ListGroup.Item>
             <ListGroup.Item
               onClick={() => setGrade("SEO")}
-              key="SEO"
+              eventKey="SEO"
               className="m-1 text-center"
               action
               variant="success"
@@ -50,19 +50,23 @@ export default function Template({
               SEO
             </ListGroup.Item>
             <ListGroup.Item
-              onClick={() => setGrade("7")}
-              key="7"
+              onClick={() => setGrade("G7")}
+              eventKey="G7"
               className="m-1 text-center"
               action
               variant="success"
             >
-              7
+              G7
             </ListGroup.Item>
           </ListGroup>
         </Col>
       </Row>
       {grade != null ? (
-        <Detail topic={frontmatter.topics} grade={grade} />
+        <Detail
+          topic={frontmatter.topics}
+          levels={frontmatter.levels}
+          selectedGrade={grade}
+        />
       ) : (
         <div
           className="blog-post-content"
@@ -80,6 +84,12 @@ export const pageQuery = graphql`
       frontmatter {
         title
         topics {
+          levels {
+            EO
+            HEO
+            SEO
+            G7            
+          }
           pathway {
             awareness {
               description
@@ -101,6 +111,7 @@ export const pageQuery = graphql`
           name
           description
         }
+        
       }
     }
   }

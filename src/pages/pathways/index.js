@@ -47,21 +47,21 @@ const PathwaysPage = () => (
     evaluate people's performance against a common set of criteria.
     <h3 className="text-primary pt-3">Things to remember</h3>
     <ul>
-      <li>
+      <li key="1">
         There are many different ways to progress and be valuable to DVLA as you
         grow, including deep technical knowledge and ability, technical
         leadership and people management. All are equally valuable paths in
         DVLA's engineering community.
       </li>
-      <li>
+      <li key="2">
         The framework represents a career’s worth of progression, people
         shouldn’t expect to fly up it in 18 months!
       </li>
-      <li>
+      <li key="3">
         Engineering progression isn’t an exact science and there will always be
         some ambiguity.
       </li>
-      <li>
+      <li key="4">
         This isn’t a checklist – it’s possible to progress up a level without
         showing all the behaviours in that level.
       </li>
