@@ -1,291 +1,43 @@
 ---
 path: "/pathways/cloudengineer"
 title: "Cloud Engineer Pathway"
+levels:
+  EO: awareness
+  HEO: awareness
+  SEO: working
+  '7': practitioner
 topics:
-  - name: "IT infrastructure"
-    title:
-    content:
-      - level: 1
-        grade: "EO"
-        criteria:
-          - "Provides regular status updates to their mentor/buddy"
-          - "Points out syntactical improvements in code reviews"
-          - "Writes PR descriptions that provide basic context for the change"
-          - "Seeks guidance from other engineers, rather than answers"
-      - level: 2
-        grade: "HEO"
-        criteria:
-          - "Proactively communicates to their team what they are working on, why, how it's going and what help they need"
-          - "Accepts feedback graciously"
-          - "Gives feedback to peers when asked"
-          - "Provides helpful and actionable feedback in code reviews in an empathetic manner"
-          - "Take a look at the levelling up your code reviews talk for some ideas"
-          - "Writes PR descriptions that provide context and provide rationale for significant decisions"
-      - level: 3
-        grade: "SEO"
-        criteria:
-          - "Transparent about mistakes they've made, early"
-          - "Proactively gives timely actionable feedback to peers"
-          - "Proactively seeks feedback from the people around them"
-          - "Considers the opinions of others before defending their own"
-      - level: 4
-        grade: "7"
-        criteria:
-          - "Proactively gives feedback 'upwards' and to people they interact with who are not in their team"
-          - "Transparent in making design and technical decisions"
-          - "Helps people in non-technical roles understand technical constraints / trade-offs"
-          - "Shares technical context and direction for less experienced engineers"
-          - "Gives direct and constructive feedback to other engineers"
-          - "Helps other people develop themselves and regularly gives insightful, useful feedback to those around them"
-          - "Talks to non-technical stakeholders on appropriate level of abstraction"
-          - "Transparent about feedback they have received and what they are going to do differently"
-  - name: "Modern standards approach"
-    title:
-    content:
-      - level: 1
-        grade: "EO"
-        criteria:
-          - "Delivers assigned tasks, working with a more senior team member, and able to take PR feedback to improve their work"
-      - level: 2
-        grade: "HEO"
-        criteria:
-          - "Delivers assigned tasks that meet expected criteria"
-          - "Works for the team, focuses on tasks that contribute to team goals"
-          - "Tries to unblock themselves first before seeking help"
-          - "Manages their own time effectively, prioritises their workload well, on time for meetings, aware when blocking others and unblocks"
-          - "Helps the team, does what needs doing"
-          - "Breaks down small/medium problems into iterative steps"
-      - level: 3
-        grade: "SEO"
-        criteria:
-          - "Delivers large well-defined tasks and solves small scope not-well-defined problems"
-          - "Contributes to writing proposals (Co-authors with more experienced Engineer)"
-          - "Breaks down large problems into smaller iterative steps across multiple PRs"
-      - level: 4
-        grade: "7"
-        criteria:
-          - "Solves ambiguous problems"
-          - "Leads writing small/medium scope proposals"
-          - "Thrown at fires and resolves / contributes heavily to resolving them"
-          - "Makes pragmatic choices about taking on tech debt"
-          - "Considers multiple different solutions for solving a problem"
-          - "Breaks down projects into smaller iterative steps that each deliver value"
-          - "Solves the 'hard problem' in a project e.g. Mastercard crypto and sees it through to resolution"
-          - "Solves larger ambiguous problems"
-          - "Leads incident resolutions"
-          - "Makes judgements about when to diverge from the immediate goal to achieve something else"
-          - "Leading large scale technical infrastructure projects (level 5 would originate or complete, probably)"
-          - "Leads writing large scope proposals"
-          - "Breaks down large long-lasting projects into sensible discrete chunks that compound to achieve a large goal"
-          - "Helps prioritise and balance short-term and long-term investments, focusing on high impact, high value work"
-          - "Accountable for delivery of large, mission critical engineering projects"
-          - "Originates or finishes large, horizontal engineering efforts"
-  - name: "Systems design"
-    title: "👩‍💼 Leadership"
-    content:
-      - level: 3
-        grade: "EO"
-        criteria:
-          - "Onboards / mentors new engineers"
-          - "Finds learning opportunities for others when reviewing their code and follows it up"
-          - "I think this code could be improved by doing X, let's pair on it and I'll talk through why X is good for this"
-      - level: 4
-        grade: "HEO"
-        criteria:
-          - "Contributes to maintaining the DVLA culture in their team, helping new joiners"
-          - "Gets buy-in on technical decision-making and proposed designs"
-          - "Proactively involves other relevant engineers"
-          - "Sought out for code reviews"
-          - "Instills DVLA engineering principles in other engineers"
-          - "Helps the growth of engineers around them through coaching and mentoring"
-          - "Helps their squad work together more effectively"
-          - "Helps facilitate team/squad rituals"
-          - "Makes improvements to modules/libraries/services and goes out of their way to help others learn from it"
-          - "I've used RxJava for the first time here, I'm going to do a talk about why I've done this, here's some great blog posts on it"
-      - level: 5
-        grade: "SEO"
-        criteria:
-          - "Instills DVLA engineering principles across a whole squad of engineers"
-          - "Works with relevant Engineering Managers to help other engineers perform and grow"
-          - "Fosters effective collaboration in multi-disciplinary squads (backend, mobile, data, design, web)"
-          - "Delegates technical decisions with low risk and high reversibility"
-          - "Owns technical decisions with high risk and low reversibility"
-          - "Contributes to maintaining the DVLA culture in the wider company"
-          - "Bootstraps new teams"
-      - level: 6
-        grade: "7"
-        criteria:
-          - "Helps groups of squads work together more effectively"
-          - "Starts things that they cannot finish by themselves"
-          - "Delegates to make better use of their time"
-  - name: "Systems integration"
-    title: "✨ Influence"
-    content:
-      - level: 1
-        grade: "EO"
-        criteria:
-          - "Improves documentation that is incorrect"
-      - level: 2
-        grade: "HEO"
-        criteria:
-          - "Proactively raises issues they spot in retrospectives"
-      - level: 3
-        grade: "SEO"
-        criteria:
-          - "Provides valuable input to proposals from their team"
-          - "Proactively improves modules, services, systems and codebases they encounter, 'this doesn't make sense, I'm going to do something about it'"
-          - "Contributes to scaling engineering hiring (e.g. leads calls, does onsite interviews)"
-          - "Builds simple tools or iterates existing tools for the benefit of all engineers"
-      - level: 4
-        grade: "7"
-        criteria:
-          - "Positively influences engineers in the wider org"
-          - "Maintains documentation on things they know the most, makes it easy for future engineers to interact with systems/code"
-          - "Clears blockers for junior team members, provides context/guidance, or knows how to escalate"
-          - "Asks why. Does not take truths for granted unless they understand exactly where they are coming from (especially with regards to regulation, compliance, etc)"
-          - "Drives changes to engineering practices with well-reasoned arguments and a 'strong opinion, weakly held' mentality"
-          - "Shapes the direction of systems designs with less experienced engineers"
-          - "Breaks down delivery and knowledge silos in their squad"
-          - "Represents DVLA at conferences/events"
-          - "Given as reason for other engineers to join DVLA"
-          - "Proactively shares knowledge internally"
-          - "Acts as the 'sole proprietor', in the CEO mindset, their ego/agenda is not a factor in their thinking or decision making"
-          - "Attracts other very senior hires"
-          - "Engineers around them get better and have a bigger impact, faster"
-  - name: "Technical understanding"
-    title: "🛠️ Mastery"
-    content:
-      - level: 1
-        grade: "EO"
-        criteria:
-          - "Learns to write correct code, following guidance and training materials"
-          - "Fixes simple bugs"
-      - level: 2
-        grade: "HEO"
-        criteria:
-          - "Designs simple database tables"
-          - "Implements asynchronous messaging between services"
-          - "Deploys services to staging and production"
-          - "Handles simple error cases in RPC handlers and message consumers"
-          - "Fixes bugs involving a number of services and can investigate production issues"
-          - "Uses appropriate algorithms and data structures to solve problems"
-          - "Writes automated unit and acceptance tests"
-          - "Implements simple RPC handlers"
-          - "Writes correct code following accepted best practices"
-          - "Follows our Coding Conventions & Best Practices, uses language-level primitives correctly"
-      - level: 3
-        grade: "SEO"
-        criteria:
-          - "Uses appropriate design patterns"
-          - "Designs new schemas comprising multiple tables"
-          - "Implements complex asynchronous messaging flows"
-          - "Co-ordinates complex deployments and database migrations"
-          - "Implements distributed systems consisting of multiple interacting services"
-          - "Produces technical designs that include a consideration of scalability"
-          - "Handles complex error cases in RPC handlers and message consumers"
-          - "Debugs production issues"
-          - "Considers metrics when building a new system"
-          - "Writes idiomatic code"
-          - "Mitigates race conditions and partial failure states in distributed systems"
-          - "Uses locking where appropriate, writes code that is “self-healing” when dealing with distributed failure (e.g. data needs to be written in two or more services)"
-          - "Implements complex business logic, orchestrates multi-stage processes, deals with idempotency or distributed data sources"
-          - "Proactively considers security implications of their work"
-          - "Appropriately ties down internal access to resources they're working with (e.g. RPC blacklisting, BigQuery permissions)"
-          - "Evaluates security risks when contributing to proposals"
-          - "Highlights potential security issues when raising and reviewing pull requests - e.g. adding rate limiting in an API, or leaving a code comment to explain why we choose not to"
-          - '"There''s a risk here of X, Y but given Z, I think this is OK"'
-          - "Loops in Security when their squad is unsure about something by posting in #security-requests"
-      - grade: "7"
-        criteria:
-          - "Writes code that serves as a definitive example for new engineers"
-          - "Leads the refactoring (de-cruftification) of complex systems"
-          - "Debugs complex production issues at speed"
-          - "Identifies and fixes security vulnerabilities"
-          - "Identifies and fixes performance bottlenecks in individual services"
-          - "Explains all aspects of the platform to new engineers"
-          - "Includes actionable dashboarding as part of a new system"
-          - "Builds systems that serve as definitive examples for new engineers"
-          - "Makes major contributions to library code or core services"
-          - "Contributes to external technologies or libraries that we depend on"
-          - "Develops clear technical solutions from ambiguous requirements"
-          - "Uncovers and fixes tricky bugs that have previously evaded detection"
-          - "Implements security improvements that impact multiple services"
-          - "Implements performance improvements that impact multiple services"
-          - "Demonstrates a deep level of knowledge in a specific area"
-          - "Serves as a technical authority on a technology or an area of the codebase"
-          - "Creates dashboards that broadly impact all engineers"
-          - "Makes major contributions to technologies and libraries that we depend on"
-          - "Makes improvements to the stability, performance or security of the entire platform"
-          - "Serves as a technical authority in the wider engineering community"
-          - "Implements services or libraries that require a deep level of domain knowledge"
-          - "Makes contributions to library code or core services"
-          - "Bug fixes, small improvements; things that don’t result in a major change in the public API"
-          - "Builds systems that scale reliably without intervention"
-          - "Services can withstand a year’s worth of growth in load/user base without needing first aid"
-          - "Produces clear technical designs for large complex projects"
-          - "Outbound and Inbound MasterCard clearing proposals"
-  - name: "Troubleshooting and problem resolution"
-    title:
-    content:
-      - level: 1
-        grade: "EO"
-        criteria:
-          - "Learns to write correct code, following guidance and training materials"
-          - "Fixes simple bugs"
-      - level: 2
-        grade: "HEO"
-        criteria:
-          - "Designs simple database tables"
-          - "Implements asynchronous messaging between services"
-          - "Deploys services to staging and production"
-          - "Handles simple error cases in RPC handlers and message consumers"
-          - "Fixes bugs involving a number of services and can investigate production issues"
-          - "Uses appropriate algorithms and data structures to solve problems"
-          - "Writes automated unit and acceptance tests"
-      - level: 3
-        grade: "SEO"
-        criteria:
-          - "Uses appropriate design patterns"
-          - "Designs new schemas comprising multiple tables"
-          - "Implements complex asynchronous messaging flows"
-          - "Co-ordinates complex deployments and database migrations"
-          - "Implements distributed systems consisting of multiple interacting services"
-          - "Produces technical designs that include a consideration of scalability"
-          - "Handles complex error cases in RPC handlers and message consumers"
-          - "Debugs production issues"
-          - "Considers metrics when building a new system"
-          - "Proactively considers security implications of their work"
-          - "Appropriately ties down internal access to resources they're working with (e.g. RPC blacklisting, BigQuery permissions)"
-          - "Evaluates security risks when contributing to proposals"
-          - "Highlights potential security issues when raising and reviewing pull requests - e.g. adding rate limiting in an API, or leaving a code comment to explain why we choose not to"
-          - '"There''s a risk here of X, Y but given Z, I think this is OK"'
-          - "Loops in Security when their squad is unsure about something by posting in #security-requests"
-      - grade: "7"
-        criteria:
-          - "Writes code that serves as a definitive example for new engineers"
-          - "Leads the refactoring (de-cruftification) of complex systems"
-          - "Debugs complex production issues at speed"
-          - "Identifies and fixes security vulnerabilities"
-          - "Identifies and fixes performance bottlenecks in individual services"
-          - "Explains all aspects of the platform to new engineers"
-          - "Includes actionable dashboarding as part of a new system"
-          - "Builds systems that serve as definitive examples for new engineers"
-          - "Makes major contributions to library code or core services"
-          - "Contributes to external technologies or libraries that we depend on"
-          - "Develops clear technical solutions from ambiguous requirements"
-          - "Uncovers and fixes tricky bugs that have previously evaded detection"
-          - "Implements security improvements that impact multiple services"
-          - "Implements performance improvements that impact multiple services"
-          - "Demonstrates a deep level of knowledge in a specific area"
-          - "Serves as a technical authority on a technology or an area of the codebase"
-          - "Creates dashboards that broadly impact all engineers"
-          - "Makes major contributions to technologies and libraries that we depend on"
-          - "Makes improvements to the stability, performance or security of the entire platform"
-          - "Serves as a technical authority in the wider engineering community"
-          - "Implements services or libraries that require a deep level of domain knowledge"
-          - "Makes contributions to library code or core services"
-          - "Builds systems that scale reliably without intervention"
-          - "Produces clear technical designs for large complex projects"
+  - name: "Information security"
+    description: "You can maintain the security, confidentiality and integrity of information systems through compliance with relevant legislation and regulations. You can design, implement and operate controls and management strategies to allow this."
+    pathway:
+      awareness:
+        description: You know about information security and the security controls that can be used to mitigate security threats within solutions and services.
+        indicators:
+          - Aware of the importance of information security
+      working:
+        description: You know about information security and the security controls that can be used to mitigate security threats within solutions and services
+        indicators:
+          - Understands the importance of information security.
+          - Utilises this knowledge to maintain the security, confidentiality and integrity of systems and data
+          - Working towards Security certification
+      practitioner:
+        description: You understand information security, and can design solutions and services with security controls embedded, specifically engineered as mitigation against security threats as a core part of the solutions and services.
+        indicators:
+          - Understands the importance of information security.
+          - Utilises this knowledge to maintain the security, confidentiality and integrity of systems and data
+          - Gained generic Certified Cloud Security Professional
+      expert:
+        description:  Has a depth of knowledge in information security, able to design, quality review and quality assure solutions and services with security controls embedded, specifically engineered as mitigation against security threats as core part of the solutions and services.
+        indicators:
+          - consistently considers security throughout all of their engineering activity
+          - Utilises this knowledge to maintain the security, confidentiality and integrity of systems and data
+          - actively looks for security vulnerabilities in design, code and during peer review
+          - actively works with security experts, as well as across several teams, to apply the organisation's security strategy
+          - fosters a security first mindset across teams, and leads by example
+          - consistently attends security meetings and groups
+          - consistently shares security related information and best practice with their team
+          - Gained Cloud Specialty Security Certification
+   
 ---
 
 **For each job role level in the Digital, Data and Technology Profession Capability Framework, you will find a list of skills, each of which has a skill level assigned to it.**
@@ -299,18 +51,26 @@ These 4 skill levels tell you about the level of expertise required for the job 
 
 You will need the following skills for this role, although the level of expertise for each will vary, depending on the role level.
 
+**Coding.** You understand how the internet works and are aware of which tools and software are available to be utilised and are currently in practice.
+
 **IT infrastructure.** You can support, design and implement infrastructure technologies and solutions such as: computing, storage, networking, physical infrastructure, software, commercial off-the-shelf (COTS) and open source packages and solutions, and virtual and cloud computing, including IaaS, PaaS and SaaS.
-Information security. You can maintain the security, confidentiality and integrity of information systems through compliance with relevant legislation and regulations. You can design, implement and operate controls and management strategies to allow this.
+
+**Information security.** You can maintain the security, confidentiality and integrity of information systems through compliance with relevant legislation and regulations. You can design, implement and operate controls and management strategies to allow this.
 
 **Modern standards approach.** You can apply a modern standards approach throughout automation and testing.
-Ownership and initiative. You take ownership of problems and proactively resolve technical problems, ensuring that technical solutions continue to meet business requirements. You take full accountability for actions taken and decisions made.
+
+**Ownership and initiative.** You take ownership of problems and proactively resolve technical problems, ensuring that technical solutions continue to meet business requirements. You take full accountability for actions taken and decisions made.
 
 **Problem solving.** You can identify and understand problems, analysing and helping to identify the appropriate solution. You can classify and prioritise problems, document their causes and implement remedies.
+
+**Service focus.** You can take inputs and establish coherent frameworks that work.
 
 **Systems design.** You create the specification and design of systems to meet defined business needs. You can work with business and technology stakeholders to translate business problems into technical designs. You can visualise the ideal user service, come up with design ideas and possible design approaches. You know how to explore different approaches to solving problems.
 
 **Systems integration.** You can integrate and test components, systems and their interfaces to create operational services.
 
 **Technical understanding.** You have the specific knowledge that enables you to deliver the responsibilities and tasks of the role. This relates to the application of the required breadth and depth of technical knowledge.
+
+**Testing.** You can correctly test scripts under supervision. You understand the role of testing and how it works.
 
 **Troubleshooting and problem resolution.** You can think laterally in order to dissect a problem into its component parts to identify and diagnose root causes, allowing problem resolution. You can troubleshoot and identify problems across different technology capabilities including: computing, storage, networking, physical infrastructure, software, COTS and open source packages and solutions, and virtual and cloud computing, including IaaS, PaaS, SaaS.

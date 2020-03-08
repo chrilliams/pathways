@@ -24,9 +24,14 @@ nav-link.active{
 .navbar-dark .navbar-nav .nav-link {
   color: white;
 }
-// Your variable overrides
 
+
+// variable overrides
 $theme-colors: (
   "primary": #85aea3,
 );
 @import '~bootstrap/scss/bootstrap';
+
+.border-1 {
+  border-width:1px !important;
+}

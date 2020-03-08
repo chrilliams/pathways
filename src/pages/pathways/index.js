@@ -9,11 +9,6 @@ const PathwaysPage = () => (
   <>
     <h1 className="text-primary pt-3">Career Pathways</h1>
     <p>
-      Career pathways are the critical first piece in creating streamlined,
-      functional career networks that will help the DVLA offer life-changing
-      opportunities.
-    </p>
-    <p>
       The DVLA Career Pathway will support the growth of our engineers. It’s
       important that such a framework creates a growth pathway for staff and
       outline the future needs of the DVLA. The Framework creates the context to
@@ -26,7 +21,7 @@ const PathwaysPage = () => (
     <b>Career Pathways have three purposes:</b>
     <p className="text-primary mb-0 mt-2">
       <strong>
-        They help everyone that works at DVLA understand where they are at the
+        They help everyone who works at DVLA understand where they are at the
         moment, and take ownership of their progression.
       </strong>
     </p>
@@ -40,16 +35,16 @@ const PathwaysPage = () => (
     </p>
     Discussing progression is easier if what's expected of you is clear. Leads
     can use these frameworks to support people to set personal development
-    goals. And it also assures everyone that all leads are using the same tools
-    to assess their performance.
+    goals. It also assures everyone that leads are using the same tools to
+    assess performance.
     <p className="text-primary mb-0 mt-2">
       <strong>
         They help us make sure we're taking a consistent approach to the way we
         assess how people are performing, and how we're paying them.
       </strong>
     </p>
-    Using frameworks and making them transparent means leads can evaluate
-    people's performance against a common set of criteria.
+    Using frameworks and making them transparent, means lead engineers can
+    evaluate people's performance against a common set of criteria.
     <h3 className="text-primary pt-3">Things to remember</h3>
     <ul>
       <li>
@@ -73,6 +68,18 @@ const PathwaysPage = () => (
     </ul>
     <Row>
       <Col md={12}>
+        <Link to="/pathways/generic" activeClassName="active">
+          <Card>
+            <Card.Body className="bg-secondary text-white">
+              <Card.Title>Generic</Card.Title>
+              <Card.Text>Everything for everyone in engineering</Card.Text>
+            </Card.Body>
+          </Card>
+        </Link>
+      </Col>
+    </Row>
+    <Row>
+      <Col md={12}>
         <Link to="/pathways/cloudengineer" activeClassName="active">
           <Card>
             <Card.Body className="bg-secondary text-white">
@@ -94,12 +101,12 @@ const PathwaysPage = () => (
             <Card.Body className="bg-secondary text-white">
               <Card.Title>DevOps Engineer</Card.Title>
               <Card.Text>
-                Commonly referred to as ‘DevOp engineers’, development
-                operations engineers support the development and operation of
-                software through tools, environments and practices. Underpins
-                good development processes including managing tools and testing
-                environments, central code control, maintaining development
-                standards and writing software that automates systems.
+                Development operations engineers support the development and
+                operation of software through tools, environments and practices.
+                Underpins good development processes including managing tools
+                and testing environments, central code control, maintaining
+                development standards and writing software that automates
+                systems.
               </Card.Text>
             </Card.Body>
           </Card>
